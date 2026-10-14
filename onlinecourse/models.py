@@ -83,7 +83,7 @@ class Enrollment(models.Model):
     AUDIT = 'audit'
     HONOR = 'honor'
     BETA = 'BETA'
-    COURSE_MODES = [
+    COURSE_MODES = [git config --global --list
         (AUDIT, 'Audit'),
         (HONOR, 'Honor'),
         (BETA, 'BETA')
